@@ -5,6 +5,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatTabsModule } from '@angular/material/tabs';
 import { InputExamplesComponent } from './input-examples/input-examples.component';
+import { CardExampleComponent } from './card-example/card-example.component';
 
 @Component({
   selector: 'app-main',
@@ -15,6 +16,7 @@ import { InputExamplesComponent } from './input-examples/input-examples.componen
     MatDividerModule,
     MatTabsModule,
     InputExamplesComponent,
+    CardExampleComponent,
   ],
   templateUrl: './main.component.html',
   styleUrl: './main.component.scss',

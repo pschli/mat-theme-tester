@@ -1,8 +1,9 @@
 .example-form {
   margin-top: 16px;
   margin-bottom: 4px;
+  margin-left: 16px;
   min-width: 150px;
-  max-width: 500px;
+  max-width: 640px;
   width: 100%;
   height: auto;
   > button {
@@ -15,6 +16,6 @@
   width: 100%;
 }
 
-td {
+td:first-child {
   padding-right: 8px;
 }
